@@ -67,11 +67,68 @@ background-color:#477D1126;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 30px;
 }
 .hot-expression, .hot-text{
     text-align: center;
     padding: 10px;
 }
 .extra{
-    margin-left: 150px;
+    margin-left: 200px;
 }
+.social, .bio{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.second-pic{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    height: 250px;
+    width: 250px;
+}
+.bg-image{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.summery{ 
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 0px;
+    margin-bottom: 100px;
+}
+.bg-image{
+    
+       
+        position: relative;
+    }
+
+    .offer1 {
+        position: absolute;
+        font-weight: 700px;
+        text-align: center;
+        top: 17px;
+        left: 50px;
+        margin-top: 100px ;
+        margin-left: 500px;
+    }
+
+    .offer2 {
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        margin-bottom: 250px ;
+        margin-left: 550px;
+    }
+    .last{
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        margin-bottom: 200px ;
+        margin-left: 900px;
+    }
