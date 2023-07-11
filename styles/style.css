@@ -1,7 +1,6 @@
 /*basic*/
 *{
     margin: 0px;
-    padding: 0px;
 }
 body{
 font-family: 'Lato', sans-serif;
@@ -15,10 +14,15 @@ width: 250px;
     background: rgba(229, 84, 115, 0.10);
     height: 400px;
     align-items: center;
+    padding: 50px;
 }
 .wellcoming{
     font-size: 50px;
     font-weight: 700px;
+    padding-bottom: 10px;
+}
+.wishing{
+    padding-bottom: 10px;
 }
 .btn-primary{
   padding: 10px 20px;
@@ -31,4 +35,43 @@ width: 250px;
 .heading,.description{
 text-align: center;
 padding-bottom: 15px;
+}
+.feature{
+    display: flex;
+    color: #272727;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-bottom: 70px;
+}
+.left, .middle, .right{
+  padding: 50px 100px 90px 50px;
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.left{
+    background-color:#A7216226
+}
+.middle{
+background-color: #0597A026;
+}
+.right{
+background-color:#477D1126;
+}
+/*hot deal section*/
+.hot-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot-expression, .hot-text{
+    text-align: center;
+    padding: 10px;
+}
+.extra{
+    margin-left: 150px;
 }
