@@ -156,3 +156,29 @@ background-color:#477D1126;
         margin-bottom:80px ;
         margin-left:200px;
     }
+    /*footer section*/
+    .footer{
+        height: 300px;
+        width: auto;
+        background-color: black;
+        color: white;
+    }
+    .fl{
+        color: #E55473;
+    }
+    .conclusion{
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    .last-text{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .copy{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        color: red;
+    }
