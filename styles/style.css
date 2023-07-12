@@ -37,19 +37,22 @@ text-align: center;
 padding-bottom: 15px;
 }
 .feature{
-    display: flex;
+    display:flex;
     color: #272727;
-    text-align: center;
+    text-align:center;
     font-size: 15px;
     font-weight: 400;
     line-height: 35px;
-    text-decoration-line: underline;
+    text-decoration: underline;
     padding-bottom: 70px;
+    justify-content: space-between;
 }
+
 .left, .middle, .right{
   padding: 50px 100px 90px 50px;
   width: 200px;
   height: 200px;
+  
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
 }
@@ -76,22 +79,36 @@ background-color:#477D1126;
 .extra{
     margin-left: 200px;
 }
+
+
+/*Insta section*/
 .social, .bio{
     text-align: center;
     padding-bottom: 15px;
 }
 .second-pic{
     display: flex;
-    text-align: center;
+    justify-content: space-between;
+   
     padding-top: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
     height: 250px;
     width: 250px;
 }
+.pics{
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+/*Latest deal section*/
+.section{
+    margin-bottom: 50px;
+}
 .bg-image{
+  margin-top: 250px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
 }
 .summery{ 
     text-align: center;
@@ -131,4 +148,11 @@ background-color:#477D1126;
         left: 10px;
         margin-bottom: 200px ;
         margin-left: 900px;
+    }
+    .mail{
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        margin-bottom:80px ;
+        margin-left:200px;
     }
